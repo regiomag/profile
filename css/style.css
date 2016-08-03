@@ -43,7 +43,6 @@ a:hover {
 
 /*div*/
 div {
-  background: white;
   width: 600px;
 }
 
@@ -78,7 +77,11 @@ div {
   border-radius:10px;
   box-shadow: 1px 1px 3px rgb(230, 230, 230);
 }
-
+.line-no-decoration{
+  list-style: none;
+  padding-left: 0px;
+  font-size: 50px;
+}
 .list-inline{
   list-style: none;
   padding-left: 0px;
@@ -108,4 +111,18 @@ div {
 
 #p-text{
   margin: 0px 15px;
+}
+
+#sidebar{
+  background-color: grey;
+  position: fixed;
+  width: 100px;
+  left: 0;
+  top: 0;
+  bottom: 0;
+}
+
+#page-content{
+  margin-left: 100px;
+  margin: auto;
 }
